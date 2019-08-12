@@ -23,8 +23,10 @@
 
 
 ########################################## Load Package into directory: For loop and apply functions
+install.packages('dplyr', dependencies = T)
+library(dplyr)
 list.packages <- c('dplyr','devtools','sjmisc','digest','gmodels','haven','Hmisc',
-                   'psych','purrr','pastecs','lubridate','installr')
+                   'psych','purrr','pastecs','lubridate','installr','Rcpp','tibble')
 
 options(warn=0) ## turn Off Warninga
 
